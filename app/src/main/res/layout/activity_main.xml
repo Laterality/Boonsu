@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_surface_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="72dp"
+        android:paddingLeft="54dp"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <!-- BEGIN : input 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_num1"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="72dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_denom1"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- END : input 1 -->
+
+
+        <!-- operation 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="2dp"
+            android:background="#000"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:textSize="24sp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:textCursorDrawable="@null"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:imeOptions="actionDone"/>
+
+        </LinearLayout>
+
+        <!-- BEGIN : input 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_num2"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="72dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_denom2"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- END : input 2 -->
+
+
+        <!-- operation 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="2dp"
+            android:background="#000"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:textSize="24sp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:textCursorDrawable="@null"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- BEGIN : input 3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_num3"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="72dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+
+                <EditText
+                    android:id="@+id/et_denom3"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:textSize="24sp"
+                    android:background="#00000000"
+                    android:textColor="#000"
+                    android:textCursorDrawable="@null"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- END : input 3 -->
+
+    </LinearLayout>
+
+</RelativeLayout>
